@@ -1,0 +1,91 @@
+.homeContainer{
+    margin: 5%;
+}
+
+.storyCategories{
+
+}
+
+.btn{
+    margin-left: 15px;
+    padding: 8px 10px;
+    background-color: white;
+    color: rgb(119, 111, 111);
+    border:1px solid grey;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(119, 111, 111);
+    color: white;
+    cursor: pointer;
+}
+
+.btnSelected{
+    margin-left: 15px;
+    padding: 8px 10px;
+    background-color: rgb(119, 111, 111);
+    color: white;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+
+.storyList{
+    margin: 2%;
+}
+
+.cardContainer{
+    padding-left:20px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgba(245, 245, 245, 0.342);
+    box-shadow: 1px 1px 10px 1px rgb(194, 194, 194);
+}
+
+.cardContainer:hover{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.detailsContainer{
+    margin:5%;
+}
+
+.commentCardConatiner{
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    padding:5px 15px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.342);
+    box-shadow: 1px 1px 10px 1px rgba(218, 218, 218, 0.774);
+    
+}
+
+.commentCardAuthor{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(155, 155, 155);
+    /* color: rgb(94, 94, 94); */
+}
+
+.gotoBtn{
+    display: block;
+    margin-top: 20px;    
+    padding: 8px 10px;
+    background-color: white;
+    color: rgb(119, 111, 111);
+    border:1px solid grey;
+    border-radius: 3px;
+}
+
+.gotoBtn:hover{
+    background-color: rgb(119, 111, 111);
+    color: white;
+    cursor: pointer;
+}
