@@ -30,7 +30,7 @@ const Stories = (props) => {
                 const storyDataDummyList = []
                  setStoriesIdList(idList)                 
                  idList.map((item, index) => {
-                        if(index < 25){                         
+                        if(index < 70){                         
                             axios.get(`https://hacker-news.firebaseio.com/v0/item/${item}.json`)
                             .then((response) => {
                                 if(response.data){
